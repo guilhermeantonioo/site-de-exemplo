@@ -15,7 +15,9 @@
     --bg-color-cl:#565656a0;
 }
 
-
+::selection{
+    background: #827c7c83;
+}
 
 
 header{
@@ -100,7 +102,8 @@ body{
 
  .content{
     background-color:#565656a0;
-    color: #000;
+    color: #000000;
+    font-weight: 500;
     border-radius: 10px;
     text-align: justify;
     width: 90%;
@@ -113,7 +116,7 @@ body{
     color: #b87d64;
     font-size: 180%;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .divisa{
@@ -208,4 +211,21 @@ footer .links-f ul li a {
         top: 13%;
         position: relative;
     }
+}
+@media screen and (max-width: 350px){
+    .content{
+        padding: 7%;
+        text-align: justify;
+    }
+    .links{
+        background-color:var(--cor2);
+        position: fixed ;
+        z-index: 4;
+        width: 60%;
+    }
+    #nav-link ul{
+        flex-direction: column;
+        margin: 3%;
+    }
+    
 }
