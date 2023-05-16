@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Site de exemplo</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div id="logo"><a href="index.html">LOGO</a></div>
+        <div class="links">
+            <nav id="nav-link">
+                <ul>
+                    
+                    <li><a href="contato.html">
+                            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                            <span class="text">contato</span>
+                        </a></li>
+                    <li><a href="projetos.html">
+                            <span class="icon"><i class="fa-solid fa-folder"></i></span>
+                            <span class="text">projetos</span>
+                        </a></li>
+                    <li><a href="manutencao.html">
+                            <span class="icon"><i class="fa-solid fa-circle-info"></i></span>
+                            <span class="text">mais informações</span>
+                        </a></li>
+                    <li><a href="manutencao.html">
+                            <span class="icon"><i class="fa-solid fa-newspaper"></i></span>
+                            <span class="text">nóticias</span>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <button id="btn-menu" onclick="toggleSideBar()"><i class="fa-solid fa-bars"></i></button>
+        <aside>
+            <!-- <nav class="links-lateral">
+                <ul>
+                    <li><a href="#">
+                        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                        <span class="text">contato</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fa-solid fa-folder"></i></span>
+                        <span class="text">projetos</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="text">mais informações</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fa-solid fa-newspaper"></i></span>
+                        <span class="text">nóticias</span>
+                    </a></li>
+                </ul>
+            </nav> -->
+        </aside>
+       <div id="content">
+           
+           <section class="content">
+               <h1>Nóticia do dia</h1>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at numquam error quia non. Odio consequuntur
+               eaque ipsam non cumque, sapiente dolor pariatur vitae, voluptas saepe corporis, quae temporibus error?Lorem
+               ipsum, dolor sit amet consectetur adipisicing elit. Aliquam velit ipsam aperiam exercitationem ipsa fugit
+               saepe, odit eum dignissimos recusandae, voluptatum dolor repellendus et dolore vel maiores. Distinctio,
+               nobis natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sequi doloremque quidem
+               placeat dignissimos cupiditate at corrupti obcaecati aliquam odio sit, officia, suscipit quia dicta quos
+               magni reiciendis eum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In provident alias voluptates veritatis ullam rem eaque incidunt quam vero, aperiam, at facilis ab quas nostrum? Accusamus animi sapiente quis quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, dolor nulla numquam voluptates at vitae ipsam illo autem aspernatur fugiat deserunt consectetur modi praesentium facilis illum ratione veniam voluptate. Delectus!
+           </section>
+           <section class="content">
+               <h1>Mudança climática</h1>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at numquam error quia non. Odio consequuntur
+               eaque ipsam non cumque, sapiente dolor pariatur vitae, voluptas saepe corporis, quae temporibus error?Lorem
+               ipsum, dolor sit amet consectetur adipisicing elit. Aliquam velit ipsam aperiam exercitationem ipsa fugit
+               saepe, odit eum dignissimos recusandae, voluptatum dolor repellendus et dolore vel maiores. Distinctio,
+               nobis natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sequi doloremque quidem
+               placeat dignissimos cupiditate at corrupti obcaecati aliquam odio sit, officia, suscipit quia dicta quos
+               magni reiciendis eum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi vitae quasi laudantium nulla vero sequi quod et, sunt cupiditate reprehenderit blanditiis necessitatibus magnam. Unde esse commodi nam quidem quam aperiam.
+               Porro ad culpa perferendis saepe tempore quidem dolores, recusandae vitae eligendi necessitatibus amet excepturi modi nisi illo voluptas accusamus. Repellendus ab delectus iste non cupiditate id tenetur quaerat eveniet quibusdam?
+               Accusantium, ipsa labore totam asperiores dolore placeat est doloremque voluptates culpa accusamus quam eveniet maiores! Laboriosam ratione dolore numquam sequi quod minus, alias repellendus deleniti id, fuga nihil illo nobis.
+           </section>
+           <section class="content">
+               <h1>Economia atual </h1>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at numquam error quia non. Odio consequuntur
+               eaque ipsam non cumque, sapiente dolor pariatur vitae, voluptas saepe corporis, quae temporibus error?Lorem
+               ipsum, dolor sit amet consectetur adipisicing elit. Aliquam velit ipsam aperiam exercitationem ipsa fugit
+               saepe, odit eum dignissimos recusandae, voluptatum dolor repellendus et dolore vel maiores. Distinctio,
+               nobis natus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sequi doloremque quidem
+               placeat dignissimos cupiditate at corrupti obcaecati aliquam odio sit, officia, suscipit quia dicta quos
+               magni reiciendis eum hic. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus inventore placeat eligendi nulla perferendis blanditiis quibusdam odit aliquam mollitia in ipsa molestias velit repudiandae obcaecati, qui amet voluptate est soluta!
+               Obcaecati culpa aliquam neque placeat voluptas tenetur quae recusandae id, ratione ut repellendus reprehenderit odio commodi tempora deleniti accusantium consequatur nulla facere aut velit, nesciunt voluptates? Quisquam laudantium nostrum voluptatibus.
+               Excepturi quae assumenda cum consequuntur iusto adipisci ullam, veniam modi non incidunt rerum corporis ratione vero, amet perferendis, quibusdam nam qui commodi facilis nostrum mollitia? Explicabo quam rerum iste inventore.
+               Tenetur dolorem dicta dignissimos animi nostrum ipsam amet! Maxime quo quasi, dolores mollitia eaque architecto adipisci unde atque possimus in aut eligendi, tempore deserunt, id rem dolore dicta sint ipsa?
+               Dolores laudantium quaerat quam impedit aspernatur id similique magnam, voluptates illo est autem inventore amet tempore dicta necessitatibus sapiente, veritatis rerum numquam adipisci accusantium non porro expedita dolore ex. Voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, corrupti quis commodi enim nulla, expedita dolor officiis quos velit magni necessitatibus obcaecati. Aspernatur iure amet, accusantium minima nemo ipsa officia.
+           </section>
+      
+        <div class="divisa"> f</div>
+    </main>
+    <footer>
+        <div class="links-f">
+            <p>Links para outros projetos</p>
+                <ul>
+                    <li><a href="https://guilhermeantonioo.github.io/projeto-android/" target="_blank">Projeto Android</a></li>
+                    <li><a href="https://guilhermeantonioo.github.io/projeto-calculadora-imc/"  target="_blank">Calculadora de IMC</a></li>
+                    <li><a href="#">...</a></li>
+                </ul>
+        </div>
+
+        <p>Redes sociais</p>
+        <div class="links-f">
+            <ul>
+            
+                <li><a href="https://www.linkedin.com/in/guilherme-ant%C3%B4nio-067276275/"  target="_blank">
+                    <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="text">Linkedin</span>
+                </a></li>
+                <li><a href="https://www.instagram.com/guilherme_antonio9/"  target="_blank">
+                    <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="text">Instagram</span>
+                </a></li>
+                <li><a href="https://github.com/guilhermeantonioo"  target="_blank">
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span class="text">Github</span>
+                </a></li>
+            </ul>
+        </div>
+                
+    </footer>
+</div>
+</body>
+<script src="src/js/script.js"></script>
+</html>

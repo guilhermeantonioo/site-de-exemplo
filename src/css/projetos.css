@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+:root{
+
+    --bg-color: #202020;
+    --cor2: #b87d64;
+    --preto: #000;
+    --branco:#fff;
+    --bg-color-cl:#565656a0;
+}
+body{
+    background-color: var(--bg-color);
+
+}
+.links{
+    
+    border-radius: 15px;
+    width: 40%;
+    height: 50%;
+    margin: 13% auto;
+    padding: 3%;
+    text-align: center;
+    background-color: var(--bg-color-cl);
+}
+h1{
+    color: #b87d64;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 130%;
+    color: #000;
+    font-weight: 300;
+}
+.links{
+    background-color:#565656a0;
+    border-radius: 15px;
+    width: 40%;
+    height: 50%;
+    margin: 10% auto;
+    padding: 3%;
+    text-align: center;
+    
+}
+.links a{
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 10px;
+    color: #817c7c;
+    transition: .3s;
+}
+.links a:hover{
+    color: #b87d64 ;
+}
+#voltar {
+    background-color: #b87d64;
+    display: block;
+    color: #000;
+    border-radius: 15px;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+}
+#voltar  {
+    text-decoration: none;
+}
+@media screen and (max-width: 560px ){
+    h1{
+        font-size:150%;
+    }
+    .links{
+        width: 70%;
+        height: 100%;
+    }
+}
