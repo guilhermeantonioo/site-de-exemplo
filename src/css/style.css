@@ -35,13 +35,14 @@ body.active{
 
 
 header{
-    background-color: var(--firstColor);
+    background-color: var(--title);
     display: flex;
     text-decoration: none;
     margin-bottom: 50px;
+    z-index: 20;
 }
 header > #logo{
-    background-color:var(--firstColor);
+  
     display: flex ;
     width: 30%;
     padding: 10px 20px;
@@ -53,6 +54,7 @@ header > #logo a {
     font-size: 30px;
     margin: auto;
    transition: .2s;
+  
 }
 header > #logo a:hover{
     scale: 1.2;
@@ -61,7 +63,7 @@ header > #logo a:hover{
 }
 
 .links{
-    background-color: var(--firstColor);
+  
     display: block;
     width: 100%;
 }
@@ -73,7 +75,7 @@ header > #logo a:hover{
     display: flex;
     text-decoration: none;
     width: 100%;
-    padding: 15px;
+   
     justify-content: space-evenly;
 } 
 #nav-link ul li {
@@ -182,9 +184,7 @@ footer .links-f ul li a {
 }
 
 @media screen and (max-width: 750px) {
-    header{
-        background-color: var(--firstColor);
-    }
+    
     .links{
         display: flex;
         margin-top: 50px;
@@ -192,10 +192,11 @@ footer .links-f ul li a {
         height: 100%;
         width: 50vw;
         position: relative;
-        top: -10%;
+        top: -5%;
         padding-top: 10% ;
         transition: .5s;
-        z-index: 4;
+        z-index: 5;
+        background-color: var(--title);
     }
     #nav-link ul{
         flex-direction: column;
@@ -217,17 +218,15 @@ footer .links-f ul li a {
 @media screen and (max-width: 460px){
     #logo{
         width: 80%;
-        z-index: 5;
+        z-index: 1;
     }
     .content{
         padding: 7%;
         text-align: justify;
     }
     .links{
-        background-color:var(--firstColor);
         position: fixed ;
         z-index: 4;
-        
     }
     #nav-link ul{
         flex-direction: column;
@@ -244,7 +243,7 @@ footer .links-f ul li a {
         text-align: justify;
     }
     .links{
-        background-color:var(--firstColor);
+       
         position: fixed ;
         z-index: 4;
         width: 60%;
@@ -253,6 +252,9 @@ footer .links-f ul li a {
         flex-direction: column;
         margin: 3%;
         padding: 3%;
+    }
+    span .text{
+        margin-top: 30%;
     }
     ::selection{
         background: transparent;
