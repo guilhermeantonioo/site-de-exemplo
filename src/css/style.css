@@ -28,6 +28,7 @@ body.active{
     --bg-text:#ebe6eea0;
     --hover:#b690ecce;
     --divisa:#5e1c7f;
+    transition: background .3s;
 }
 ::selection{
     background: var(--links);
@@ -40,6 +41,7 @@ header{
     text-decoration: none;
     margin-bottom: 50px;
     z-index: 20;
+    transition: background .3s;
 }
 header > #logo{
   
