@@ -88,7 +88,7 @@ header > #logo a:hover{
     text-decoration: none;
     font-size: 18px;
     color: var(--icons);
-    
+    padding: 10px;
     transition: .3s;
 }
 #nav-link ul li a:hover{
@@ -96,7 +96,7 @@ header > #logo a:hover{
     scale: 1.1;
 }
 #nav-link ul li a span{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 #checkbox{
     opacity: 0;

@@ -16,6 +16,16 @@ function toggleSideBar(){
     }
 }
 
+// Bloquear o scroll
+function bloquearScroll() {
+    document.body.style.overflow = 'hidden';
+  }
+  
+  // Desbloquear o scroll
+  function desbloquearScroll() {
+    document.body.style.overflow = 'auto';
+  }
+
 const checkbox = document.getElementById('checkbox');
 
 checkbox.onclick = () => {
@@ -23,8 +33,10 @@ checkbox.onclick = () => {
     if( checkbox.classList.contains('active')){
         document.body.classList.add('active')
         document.body.style.transition = '.3s'
+        bloquearScroll()
     }else{
         document.body.classList.remove('active')
         document.body.style.transition = '.3s'
+        desbloquearScroll()
     }
 }
