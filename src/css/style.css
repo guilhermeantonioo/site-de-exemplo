@@ -8,26 +8,30 @@
 
 :root{
 
-    --bg-color: #202020;
-    --cor2: #b87d64;
-    --preto: #000;
-    --branco:#fff;
-    --bg-color-cl:#565656a0;
+    --bg:#333;
+    --firstColor: #b87d64;
+    --title: #b87d64;
+    --icons: #000;
+    --links: #817c7c;
+    --text:#dfdada;
+    --bg-text:#565656a0;
+    --hover:#fed8c7c3;
+    --divisa:#854b32;
 }
 
 ::selection{
-    background: #827c7c83;
+    background: var(--links);
 }
 
 
 header{
-    background-color: var(--cor2);
+    background-color: var(--firstColor);
     display: flex;
     text-decoration: none;
     margin-bottom: 50px;
 }
 header > #logo{
-    background-color:var(--cor2);
+    background-color:var(--firstColor);
     display: flex ;
     width: 30%;
     padding: 10px 20px;
@@ -35,19 +39,19 @@ header > #logo{
 }
 header > #logo a {
     text-decoration: none;
-    color: #000;
+    color: var(--icons);
     font-size: 30px;
     margin: auto;
    transition: .2s;
 }
 header > #logo a:hover{
     scale: 1.2;
-    color: #fff;
+    color: var(--hover);
     font-weight: 500;
 }
 
 .links{
-    background-color: var(--cor2);
+    background-color: var(--firstColor);
     display: block;
     width: 100%;
 }
@@ -70,13 +74,13 @@ header > #logo a:hover{
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 20px;
-    color: #000;
+    font-size: 18px;
+    color: var(--icons);
     
     transition: .3s;
 }
 #nav-link ul li a:hover{
-    color: #fff;
+    color: var(--hover);
     scale: 1.1;
 }
 #nav-link ul li a span{
@@ -90,19 +94,19 @@ header > #logo a:hover{
     font-size: 30px;
     background-color: transparent;
     border: none;
-    color: #fff;
+    color:var(--icons);
 }
 
 
 body{
-    background-color: #202020;
+    background-color: var(--bg);
 }
 
 
 
  .content{
-    background-color:#565656a0;
-    color: #000000;
+    background-color:var(--bg-text);
+    color: var(--text);
     font-weight: 500;
     border-radius: 10px;
     text-align: justify;
@@ -113,14 +117,14 @@ body{
     padding: 2%;
 }
 .content h1{
-    color: #b87d64;
+    color:var(--firstColor);
     font-size: 180%;
     margin-bottom: 20px;
     font-weight: 900;
 }
 
 .divisa{
-    background-color: #854b32;
+    background-color: var(--divisa);
     color: transparent;
     width: 90%;
     height: 2px;
@@ -128,7 +132,7 @@ body{
     margin: 40px auto;
 }
 footer{
-    background-color:#565656a0;
+    background-color:var(--bg-text);
     text-align: justify;
     width: 90%;
     margin: 0 auto 100px;
@@ -146,18 +150,18 @@ footer  ul li {
     
 }
 footer .links-f ul li a:hover{
-    color: #854b32;
+    color: var(--hover);
     
 }
 footer .links-f ul li a {
     text-decoration: none;
-    color: #817c7c;
+    color: var(--links);
     transition: .3s;
 }
 
 @media screen and (max-width: 750px) {
     header{
-        background-color: var(--cor2);
+        background-color: var(--firstColor);
     }
     .links{
         display: flex;
@@ -183,7 +187,7 @@ footer .links-f ul li a {
         bottom: 35px;
         left: 15px;
         background-color: transparent;
-        color: #fff;
+        color: var(--icons);
         border: none;
         z-index: 4;
     }
@@ -198,7 +202,7 @@ footer .links-f ul li a {
         text-align: justify;
     }
     .links{
-        background-color:var(--cor2);
+        background-color:var(--firstColor);
         position: fixed ;
         z-index: 4;
         
@@ -218,7 +222,7 @@ footer .links-f ul li a {
         text-align: justify;
     }
     .links{
-        background-color:var(--cor2);
+        background-color:var(--firstColor);
         position: fixed ;
         z-index: 4;
         width: 60%;
