@@ -18,7 +18,17 @@
     --hover:#fed8c7c3;
     --divisa:#854b32;
 }
-
+body.active{
+    --bg:#fff;
+    --firstColor: #8e36e6e1;
+    --title: #8000FF;
+    --icons: #000;
+    --links: #9868D9;
+    --text:#000;
+    --bg-text:#ebe6eea0;
+    --hover:#b690ecce;
+    --divisa:#5e1c7f;
+}
 ::selection{
     background: var(--links);
 }
@@ -85,6 +95,18 @@ header > #logo a:hover{
 }
 #nav-link ul li a span{
     padding-left: 15px;
+}
+#checkbox{
+    opacity: 0;
+    position: absolute;
+}
+label{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.fa-sharp{
+    color: var(--icons);
 }
 #btn-menu{
     display: none;

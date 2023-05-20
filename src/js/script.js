@@ -15,3 +15,16 @@ function toggleSideBar(){
         content.style.filter = '';
     }
 }
+
+const checkbox = document.getElementById('checkbox');
+
+checkbox.onclick = () => {
+    checkbox.classList.toggle('active');
+    if( checkbox.classList.contains('active')){
+        document.body.classList.add('active')
+        document.body.style.transition = '.3s'
+    }else{
+        document.body.classList.remove('active')
+        document.body.style.transition = '.3s'
+    }
+}
