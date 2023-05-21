@@ -41,7 +41,7 @@ header{
     display: flex;
     text-decoration: none;
     margin-bottom: 50px;
-    z-index: 20;
+    z-index: 22;
     transition: background .3s;
 }
 header > #logo{
@@ -49,6 +49,7 @@ header > #logo{
     display: flex ;
     width: 30%;
     padding: 10px 20px;
+    z-index: 22;
 }
 header > #logo a {
     text-decoration: none;
@@ -135,9 +136,12 @@ header > #logo a:hover{
         /*  menu-lateral*/
 
 @media screen and (max-width: 910px) {
-   .links{
+   
+   header{
+    z-index: 22;
+   } .links{
     position: fixed;
-    top: 10%;
+    top: 0%;
     background-color: var(--title);
     width: 40vw;
     height: 100vh;
