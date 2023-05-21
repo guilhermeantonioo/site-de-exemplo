@@ -48,14 +48,13 @@ header > #logo{
     display: flex ;
     width: 30%;
     padding: 10px 20px;
-    z-index: 5;
 }
 header > #logo a {
     text-decoration: none;
     color: var(--icons);
     font-size: 30px;
     margin: auto;
-   transition: .2s;
+    transition: .2s;
   
 }
 header > #logo a:hover{
@@ -186,7 +185,9 @@ footer .links-f ul li a {
 }
 
 @media screen and (max-width: 750px) {
-    
+    header{
+        z-index: 20;
+    }
     .links{
         display: flex;
         margin-top: 50px;
@@ -194,10 +195,9 @@ footer .links-f ul li a {
         height: 100%;
         width: 50vw;
         position: relative;
-        top: -5%;
+        top: 1%;
         padding-top: 10% ;
         transition: .5s;
-        z-index: 5;
         background-color: var(--title);
     }
     #nav-link ul{
@@ -214,13 +214,13 @@ footer .links-f ul li a {
         background-color: transparent;
         color: var(--icons);
         border: none;
-        z-index: 4;
+        z-index: 20;
     }
 }
 @media screen and (max-width: 460px){
     #logo{
         width: 80%;
-        z-index: 1;
+        z-index: 20;
     }
     .content{
         padding: 7%;
