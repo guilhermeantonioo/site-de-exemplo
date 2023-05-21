@@ -203,7 +203,7 @@ header > #logo a:hover{
        
         position: fixed ;
         z-index: 4;
-        width: 60%;
+        width: 60vw;
     }
     ::selection{
         background: transparent;
