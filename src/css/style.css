@@ -174,6 +174,9 @@ header > #logo a:hover{
         font-size: 20px;
         line-height: 3;
     }
+    .links{
+        width: 70vw;
+    }
     #nav ul li{
         margin-top: 10%;
         margin-left: 0%;
@@ -189,6 +192,9 @@ header > #logo a:hover{
     .icon{
         font-size: 16px;
         line-height: 4;
+    }
+    .links{
+        width: 70vw;
     }
     #nav ul li{
         margin-top: 10%;
