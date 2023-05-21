@@ -17,7 +17,7 @@ function toggleSideBar(){
         desbloquearRolagemTela()
     }
 }
-
+//fechar o menu quando houver um clique no conteudo 
 function closeSideBar(){
     if(showSideBar){
         toggleSideBar()
@@ -31,6 +31,8 @@ function bloquearRolagemTela() {
   function desbloquearRolagemTela() {
     document.body.style.overflow = 'auto';
   }
+
+
 
 const checkbox = document.getElementById('checkbox');
 

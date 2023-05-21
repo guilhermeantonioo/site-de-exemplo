@@ -8,17 +8,6 @@
 
 :root{
 
-    --bg:#333;
-    --firstColor: #b87d64;
-    --title: #b87d64;
-    --icons: #000;
-    --links: #817c7c;
-    --text:#dfdada;
-    --bg-text:#565656a0;
-    --hover:#fed8c7c3;
-    --divisa:#854b32;
-}
-body.active{
     --bg:#fff;
     --firstColor: #8e36e6e1;
     --title: #8000FF;
@@ -29,6 +18,17 @@ body.active{
     --hover:#b690ecce;
     --divisa:#5e1c7f;
     transition: background .3s;
+}
+body.active{
+    --bg:#333;
+    --firstColor: #b87d64;
+    --title: #b87d64;
+    --icons: #000;
+    --links: #817c7c;
+    --text:#dfdada;
+    --bg-text:#565656a0;
+    --hover:#fed8c7c3;
+    --divisa:#854b32;
 }
 ::selection{
     background: var(--links);
