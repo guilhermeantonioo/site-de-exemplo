@@ -179,10 +179,10 @@ header > #logo a:hover{
         line-height: 3;
     }
     .links{
-        width: 70vw;
+        width: 65vw;
     }
     #nav ul li{
-        margin-top: 10%;
+        margin-top: 20%;
         margin-left: 0%;
         width: 10%;
        }
@@ -198,7 +198,7 @@ header > #logo a:hover{
         line-height: 4;
     }
     .links{
-        width: 70vw;
+        width: 65vw;
     }
     #nav ul li{
         margin-top: 20%;
@@ -213,7 +213,7 @@ header > #logo a:hover{
 @media screen and (max-width: 320px){
     
     #nav ul li{
-        margin-top: 20%;
+        margin-top: 45%;
         margin-left:5%;
         width: 10%;
        }
