@@ -169,6 +169,21 @@ header > #logo a:hover{
 }
 }
 
+@media screen and (max-width: 425px){
+    .icon{
+        font-size: 20px;
+        line-height: 3;
+    }
+    #nav ul li{
+        margin-top: 10%;
+        margin-left: 0%;
+        width: 10%;
+       }
+       #btn-menu{
+        font-size: 24px;
+       }
+}
+
 
 @media screen and (max-width: 375px){
     .icon{
@@ -176,16 +191,16 @@ header > #logo a:hover{
         line-height: 4;
     }
     #nav ul li{
-        margin-top: 0%;
-        margin-left: 10%;
-        width: 20%;
+        margin-top: 10%;
+        margin-left: -10%;
+        width: 10%;
        }
        #btn-menu{
         font-size: 24px;
        }
 }
 
-@media screen and (max-width: 325px){
+@media screen and (max-width: 320px){
     
     #nav ul li{
         margin-top: 0%;
