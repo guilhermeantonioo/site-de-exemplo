@@ -202,8 +202,8 @@ footer .links-f ul li a {
     }
     #nav-link ul{
         flex-direction: column;
-        margin: -3%;
-        padding: 0;
+        position: relative;
+        left: -5%;
     }
     #btn-menu{
         display: flex;
@@ -230,10 +230,7 @@ footer .links-f ul li a {
         position: fixed ;
         z-index: 4;
     }
-    #nav-link ul{
-        flex-direction: column;
-        margin: -3%;
-    }
+   
     #btn-menu{
         top: 13%;
         position: relative;
@@ -249,14 +246,6 @@ footer .links-f ul li a {
         position: fixed ;
         z-index: 4;
         width: 60%;
-    }
-    #nav-link ul{
-        flex-direction: column;
-        margin: 3%;
-        padding: 3%;
-    }
-    span .text{
-        margin-top: 30%;
     }
     ::selection{
         background: transparent;
