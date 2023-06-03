@@ -19,7 +19,7 @@
     --divisa:#5e1c7f;
     transition: background .3s;
 }
-body.active{
+body.dark{
     --bg:#333;
     --firstColor: #b87d64;
     --title: #b87d64;
