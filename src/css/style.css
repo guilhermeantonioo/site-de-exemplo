@@ -93,7 +93,7 @@ header > #logo a:hover{
     text-decoration: none;
     display: flex;
     color: var(--text);
-    transition:  ease-in .2s;
+    transition:  linear .2s;
 }
 #nav ul li span{
     padding-right: 10px;
